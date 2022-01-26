@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/call_img"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="cursive"
+        android:text="Call App"
+        android:textColor="#FFEB3B"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#3F51B5"
+        android:hint="Enter contact Number"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textSize="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:fontFamily="cursive"
+        />
+
+    <Button
+        android:layout_width="101dp"
+        android:layout_height="75dp"
+        android:background="@drawable/call_icon"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:onClick="makeCall"
+        />
+
+
+</LinearLayout>
+
+
+
